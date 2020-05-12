@@ -1,3 +1,20 @@
-body{
-    background-color: aquamarine;
+.logo img{
+    max-width: 100%;
+}
+.titulo h1{
+    font-size: 2em;
+    text-align: center;
+}
+.titulo h3{
+    font-size: 1.3em;
+    font-weight: 200;
+    text-align: center;
+}
+
+.leitura_conteudo button{
+    margin-top: 20px;
+}
+
+.menu_principal{
+    background-color: rgb(235, 240, 240);
 }
