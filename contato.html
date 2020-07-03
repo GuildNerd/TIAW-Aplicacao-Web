@@ -7,17 +7,19 @@
     <title>AceUni | Acessibilidade nas Instituições de Ensino Superior</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/234a0a014a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
     <header class="container header">
         <section class="row topo_pagina">
-            <div class="sm-col-12 md-col-3 lg-col-3 xl-col-3 col-3 logo">
+            <div class="col-3 logo">
                 <img src="images/logo.png"
                     alt="Logo Ace Uni - Um boneco de palito circunscrito (símbolo de acessibilidade)">
             </div>
-            <div class="sm-col-12 md-col-9 lg-col-9 xl-col-9 col-9 titulo">
+            <div class="col-9 titulo">
                 <h1>AceUni</h1>
                 <h3>Lutando por acessibilidade e
                     representatividade de PCD's nas instituições de ensino superior
@@ -26,9 +28,9 @@
         </section>
         <section class="row navegacao">
             <div class="col-12 menu_principal">
-                <ul class="nav nav-pills nav-fill">
+                <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Sugestões e Reclamações</a>
+                        <a class="nav-link" href="index.html">Sugestões e Reclamações</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="proEducacao.html">Profissionais da Educação</a>
@@ -37,7 +39,7 @@
                         <a class="nav-link" href="mapas.html">Mapas PUC</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contato.html">Contato</a>
+                        <a class="nav-link active" href="contato.html">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -45,25 +47,20 @@
     </header>
 
     <main class="container main">
-        <section class="row link_extensao">
-            <p>Se você é deficiente visual, recomendamos a seguinte extensão de leitura de conteúdo do Chrome: </p>
-            <a
-                href="https://chrome.google.com/webstore/detail/selection-reader-text-to/fdffijlhedcdiblbingmagmdnokokgbi?hl=pt-BR" target="_blank"> Clique
-                aqui para ir para o site do Google e baixar a extensão
-            </a>
-        </section>
-        <section class="row form_sugest_reclam">
-            <div class="col-12 form">
-                <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSesqpgExqrg4aG-jmHbaN6NddygOhexUSnThWWF2zwg_mP2rA/viewform?embedded=true"
-                    width="700" height="774" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"
-                    frameborder="no" id="formSugest">Carregando…
-                </iframe>
+        <section class="row listaContatos">
+            <div class="col-12">
+                <h2 id="tituloContatos">Contatos da AceUni:</h2><br>
+                <i class="far fa-envelope"></i>
+                <p class="icones">Email: aceuni.contato@gmail.com</p><br>
+                <i class="fab fa-instagram"></i>
+                <p class="icones">Instagram: <a href="https://www.instagram.com/ace.uni/" target="_blank">AceUni</a></p><br>
+                <i class="fab fa-whatsapp"></i>
+                <p class="icones">Whatsapp: (31)986461657</p>
             </div>
         </section>
     </main>
 
-    <footer class="container footer">
+    <footer class="container footer" id="rodapeContatos">
         <section class="row rodape">
             <div class="col-12 rodape">
                 © 2020 AceUni - Todos os direitos reservados
@@ -71,16 +68,7 @@
         </section>
     </footer>
 
-    <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
-        </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
-        new window.VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=RHqSzrjH"></script>
 </body>
+
 </html>
