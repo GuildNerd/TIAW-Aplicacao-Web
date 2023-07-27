@@ -1,2 +1,2 @@
 # TIAW-Aplicacao-Web
-Aplicação Web com tema "Acessibilidade nas Instituições de Ensino", da disciplina "Trabalho Interdisciplinar de Aplicação Web"
+Web app with theme "Acessibility in Education Institutions", college work of the grade "Interdisciplinary Work: Web Apps"
